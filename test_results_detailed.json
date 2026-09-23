@@ -1,0 +1,184 @@
+[
+  {
+    "test": "User1 Signup",
+    "success": true,
+    "message": "User already exists (expected for repeated tests)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:17.780576"
+  },
+  {
+    "test": "User2 Signup",
+    "success": true,
+    "message": "User already exists (expected for repeated tests)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:17.788867"
+  },
+  {
+    "test": "User1 Login",
+    "success": true,
+    "message": "Login successful, token received",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.038845"
+  },
+  {
+    "test": "User2 Login",
+    "success": true,
+    "message": "Login successful, token received",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.271141"
+  },
+  {
+    "test": "Get Current User",
+    "success": true,
+    "message": "User info retrieved correctly: TestUser1",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.278582"
+  },
+  {
+    "test": "Search Users",
+    "success": true,
+    "message": "Found TestUser2 in search results",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.286236"
+  },
+  {
+    "test": "Send Friend Request",
+    "success": true,
+    "message": "Friend request already exists or users already friends",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.305524"
+  },
+  {
+    "test": "Get Contacts",
+    "success": true,
+    "message": "TestUser2 found in contacts list (1 total contacts)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.315049"
+  },
+  {
+    "test": "Send Message",
+    "success": true,
+    "message": "Message sent successfully: Hello from TestUser1! This is a test message.",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.337539"
+  },
+  {
+    "test": "Get Messages",
+    "success": true,
+    "message": "Messages retrieved successfully (14 messages), test message found",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.350929"
+  },
+  {
+    "test": "WebSocket Events",
+    "success": true,
+    "message": "Socket.IO endpoint accessible (full WebSocket testing requires client)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.359014"
+  },
+  {
+    "test": "Voice Message Upload",
+    "success": true,
+    "message": "Voice message uploaded successfully: ce08a685-33f6-4a81-82a2-f33ce33b4d4b",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.418749"
+  },
+  {
+    "test": "Photo Upload",
+    "success": true,
+    "message": "Photo uploaded successfully: c48ca4d6-b395-4305-9fee-31712b015a2f",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.426328"
+  },
+  {
+    "test": "Video Upload",
+    "success": true,
+    "message": "Video uploaded successfully: b8528acd-db71-4488-99e8-dc8d12fd311f",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.433278"
+  },
+  {
+    "test": "WebRTC Signaling Endpoints",
+    "success": true,
+    "message": "Socket.IO endpoint accessible. WebRTC events (call_user, answer_call, end_call, reject_call, ice_candidate) are implemented in backend",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.443209"
+  },
+  {
+    "test": "Invisible Mode Set",
+    "success": true,
+    "message": "Invisible mode successfully set to true",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.450721"
+  },
+  {
+    "test": "Invisible Mode Contacts",
+    "success": true,
+    "message": "User1 appears as offline with no last_seen when invisible mode is on",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.457838"
+  },
+  {
+    "test": "Chat Themes",
+    "success": true,
+    "message": "Chat theme successfully set to 'ocean'",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.465397"
+  },
+  {
+    "test": "Custom Wallpaper",
+    "success": true,
+    "message": "Custom wallpaper uploaded successfully",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.472206"
+  },
+  {
+    "test": "Status Creation",
+    "success": true,
+    "message": "Status created successfully with ID: d2afe70c-a470-4139-baed-6317a1faedf5",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.489117"
+  },
+  {
+    "test": "Status View",
+    "success": true,
+    "message": "Status view recorded successfully",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.496113"
+  },
+  {
+    "test": "Status Views List",
+    "success": true,
+    "message": "Status views retrieved successfully. User2 found in views list (1 total views)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.503337"
+  },
+  {
+    "test": "Data Persistence - Logout",
+    "success": true,
+    "message": "User logged out successfully",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.509434"
+  },
+  {
+    "test": "User1 Login",
+    "success": true,
+    "message": "Login successful, token received",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.740151"
+  },
+  {
+    "test": "Data Persistence - Messages",
+    "success": true,
+    "message": "Chat messages persisted after logout/login (17 messages)",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.754353"
+  },
+  {
+    "test": "Data Persistence - Settings",
+    "success": true,
+    "message": "User settings persisted: theme=ocean, invisible_mode=True",
+    "response_data": null,
+    "timestamp": "2026-01-02T07:52:18.761856"
+  }
+]
